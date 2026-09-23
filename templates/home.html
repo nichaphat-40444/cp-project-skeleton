@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{# home.html — the front page. You may edit this freely. #}
+{% block content %}
+<section class="hero">
+  <h1>{{ team.group.topic }}</h1>
+  <p class="lead">{{ team.group.description }}</p>
+</section>
+
+<section class="cards">
+  {% for p in nav %}
+  <a class="card" href="{{ url_for('page', name=p.name) }}">
+    <span class="card-kicker">{{ p.name }}</span>
+    <span class="card-title">{{ p.title }}</span>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}

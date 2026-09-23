@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+
+<form method="post" enctype="multipart/form-data" class="panel" style="display:flex; gap:14px; flex-wrap:wrap; align-items:flex-end; margin-bottom:18px">
+  <div class="field" style="margin:0"><label>ชื่อ</label><input name="name" placeholder="ชื่อรูป"></div>
+  <div class="field" style="margin:0"><label>หมวด</label><input name="category" placeholder="เช่น lab"></div>
+  <div class="field" style="margin:0"><label>รูป</label><input type="file" name="photo" accept="image/*"></div>
+  <button class="btn" type="submit">อัปโหลด</button>
+</form>
+
+{% if cards %}
+<div class="gallery">
+  {% for c in cards %}
+  <figure>
+    <img src="{{ url_for('static', filename=c.picture) }}" alt="{{ c.name }}">
+    <figcaption><b>{{ c.name }}</b><br><span class="muted">{{ c.caption }}</span></figcaption>
+  </figure>
+  {% endfor %}
+</div>
+{% else %}
+<div class="empty">ยังไม่มีรูป — อัปโหลดรูปแรกด้านบน</div>
+{% endif %}
+{% endblock %}

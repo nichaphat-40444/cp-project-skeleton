@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<p class="lead">ภาพรวมผลการเล่นและผู้เล่นคะแนนสูงสุด</p><div class="stat-grid"><div class="stat"><div class="label">เกมทั้งหมด</div><div class="value">{{ total_games }}</div></div><div class="stat good"><div class="label">ชนะ</div><div class="value">{{ wins }}</div></div><div class="stat gold"><div class="label">คะแนนรวม</div><div class="value">{{ total_score }}</div></div></div><h2>Ranking</h2>{% if ranking %}<table><thead><tr><th>อันดับ</th><th>ผู้เล่น</th><th class="num">คะแนนรวม</th></tr></thead><tbody>{% for player, score in ranking %}<tr><td>{{ loop.index }}</td><td>{{ player }}</td><td class="num">{{ score }}</td></tr>{% endfor %}</tbody></table>{% else %}<div class="empty">ยังไม่มีข้อมูล เริ่มเล่นเกมเพื่อสร้างอันดับ</div>{% endif %}<p><a class="btn" href="{{ url_for('page', name='page1') }}">กลับไปเล่นเกม</a></p>
+{% endblock %}

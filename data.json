@@ -1,0 +1,152 @@
+[
+  {
+    "type": "game",
+    "player": "MILk",
+    "word": "algorithm",
+    "category": "การเขียนโปรแกรม",
+    "difficulty": "กลาง",
+    "guessed": [
+      "l",
+      "a",
+      "c",
+      "w",
+      "f",
+      "i",
+      "t",
+      "o",
+      "d",
+      "n",
+      "e"
+    ],
+    "hint_letters": [
+      "l"
+    ],
+    "wrong": 6,
+    "status": "lost",
+    "score": 0
+  },
+  {
+    "type": "game",
+    "player": "MILk",
+    "word": "computer",
+    "category": "เทคโนโลยี",
+    "difficulty": "ง่าย",
+    "guessed": [
+      "e",
+      "t",
+      "c",
+      "o",
+      "m",
+      "p",
+      "u",
+      "r"
+    ],
+    "hint_letters": [
+      "e",
+      "t"
+    ],
+    "wrong": 0,
+    "status": "won",
+    "score": 100
+  },
+  {
+    "type": "game",
+    "player": "MILk",
+    "word": "python",
+    "category": "ภาษาโปรแกรม",
+    "difficulty": "ง่าย",
+    "guessed": [
+      "h",
+      "n",
+      "p",
+      "y",
+      "t",
+      "o"
+    ],
+    "hint_letters": [
+      "h",
+      "n"
+    ],
+    "wrong": 0,
+    "status": "won",
+    "score": 100
+  },
+  {
+    "type": "game",
+    "player": "ฺิิิิBell",
+    "word": "monitor",
+    "category": "อุปกรณ์คอมพิวเตอร์",
+    "difficulty": "ง่าย",
+    "guessed": [
+      "m",
+      "i",
+      "a",
+      "o",
+      "t",
+      "p",
+      "g",
+      "l",
+      "n",
+      "r"
+    ],
+    "hint_letters": [
+      "m",
+      "i"
+    ],
+    "wrong": 4,
+    "status": "won",
+    "score": 60
+  },
+  {
+    "type": "game",
+    "player": "pech",
+    "word": "variable",
+    "category": "การเขียนโปรแกรม",
+    "difficulty": "กลาง",
+    "guessed": [
+      "e",
+      "a",
+      "n",
+      "r",
+      "t",
+      "p",
+      "c",
+      "g",
+      "f"
+    ],
+    "hint_letters": [
+      "e"
+    ],
+    "wrong": 6,
+    "status": "lost",
+    "score": 0
+  },
+  {
+    "type": "game",
+    "player": "bb",
+    "word": "development",
+    "category": "ภาษาโปรแกรม",
+    "difficulty": "ยาก",
+    "guessed": [
+      "n",
+      "a",
+      "e",
+      "r",
+      "i",
+      "o",
+      "s",
+      "t",
+      "d",
+      "l",
+      "v",
+      "p",
+      "m"
+    ],
+    "hint_letters": [
+      "n"
+    ],
+    "wrong": 4,
+    "status": "won",
+    "score": 60
+  }
+]

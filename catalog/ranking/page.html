@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+{% if top %}
+<p class="lead">อันดับ 1: <b>{{ top.name }}</b> — {{ top.price }} บาท</p>
+<table>
+  <tr><th>อันดับ</th><th>ชื่อ</th><th>หมวด</th><th class="num">ราคา</th></tr>
+  {% for item in ranked %}
+  <tr>
+    <td>{% if loop.index == 1 %}🥇{% elif loop.index == 2 %}🥈{% elif loop.index == 3 %}🥉{% else %}{{ loop.index }}{% endif %}</td>
+    <td>{{ item.name }}</td><td>{{ item.category }}</td><td class="num">{{ item.price }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% else %}
+<div class="empty">ยังไม่มีข้อมูลใน data.json</div>
+{% endif %}
+{% endblock %}

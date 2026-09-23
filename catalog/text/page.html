@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<p class="lead">อัปเดตล่าสุด {{ updated }}</p>
+{% for s in sections %}
+<h2>{{ s.heading }}</h2>
+<p>{{ s.body }}</p>
+{% endfor %}
+{% endblock %}

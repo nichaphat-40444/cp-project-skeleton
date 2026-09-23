@@ -1,0 +1,49 @@
+<!doctype html>
+{# base.html — GIVEN, DO NOT EDIT. Header, menu and footer for every page.
+   Your page goes inside {% block content %} in your own templates/pageN.html.
+   Page-specific JavaScript goes inside {% block scripts %} (or static/js/pageN.js). #}
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title or team.group.name }} · {{ team.group.name }}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+{% block head %}{% endblock %}
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="{{ url_for('home') }}">
+      <img src="{{ url_for('static', filename='eng-logo.png') }}" alt="คณะวิศวกรรมศาสตร์ ม.อุบลฯ">
+      <span class="brand-text">
+        <span class="brand-line1">คณะวิศวกรรมศาสตร์ มหาวิทยาลัยอุบลราชธานี</span>
+        <span class="brand-line2">1309102 การเขียนโปรแกรมคอมพิวเตอร์ · Computer Programming Project</span>
+      </span>
+    </a>
+    <span class="group-badge">{{ team.group.name }} · {{ team.group.section }}</span>
+  </div>
+  <nav class="wrap site-nav">
+    <a href="{{ url_for('home') }}" class="{{ 'active' if request.path == '/' }}">หน้าแรก</a>
+    {% for p in nav %}
+      <a href="{{ url_for('page', name=p.name) }}" class="{{ 'active' if request.path == '/' + p.name }}">{{ p.title }}</a>
+    {% endfor %}
+  </nav>
+</header>
+
+<main class="wrap">
+  {% if msg %}<div class="banner">{{ msg }}</div>{% endif %}
+  {% if notice %}<div class="banner">{{ notice }}</div>{% endif %}
+  {% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>{{ team.group.name }} — {{ team.group.topic }}</span>
+    <span class="members">
+      {% for m in team.members %}{{ m.name }}{% if not loop.last %} · {% endif %}{% endfor %}
+    </span>
+  </div>
+</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>

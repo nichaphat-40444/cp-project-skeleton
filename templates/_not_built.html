@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{# _not_built.html — GIVEN. Shown when a page is missing, still a TODO, or crashed. #}
+{% block content %}
+<div class="notbuilt">
+  <h2>🚧 /{{ page }} — ยังไม่พร้อม</h2>
+  <p class="reason">{{ reason }}</p>
+  {% if detail %}
+  <details open>
+    <summary>รายละเอียดข้อผิดพลาด (คัดลอกไปถาม Copilot ได้: <code>/explain-error</code>)</summary>
+    <pre>{{ detail }}</pre>
+  </details>
+  {% endif %}
+  <p class="hint">
+    ขั้นตอน: เปิด <code>PAGES.md</code> → เลือกแบบหน้าจาก <code>catalog/</code> →
+    เขียน <code>pages/{{ page }}.py</code> + <code>templates/{{ page }}.html</code> →
+    โหลดหน้านี้ใหม่ → <code>python check_project.py</code>
+  </p>
+</div>
+{% endblock %}

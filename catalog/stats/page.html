@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+
+<div class="stat-grid">
+  <div class="stat"><div class="label">จำนวนรายการ</div><div class="value">{{ count }}</div></div>
+  <div class="stat"><div class="label">จำนวนชิ้นรวม</div><div class="value">{{ total_qty }}</div></div>
+  <div class="stat gold"><div class="label">มูลค่ารวม</div><div class="value">{{ "{:,.0f}".format(total_value) }}</div><div class="unit">บาท</div></div>
+  <div class="stat"><div class="label">ราคาเฉลี่ยต่อชิ้น</div><div class="value">{{ "{:,.2f}".format(average_price) }}</div></div>
+</div>
+
+<h2>มูลค่าตามหมวด</h2>
+<div class="panel">
+  {% for b in bars %}
+  <div class="bar-row">
+    <span>{{ b.label }}</span>
+    <div class="bar-track"><div class="bar-fill" style="width: {{ b.percent }}%"></div></div>
+    <span class="num">{{ "{:,.0f}".format(b.value) }}</span>
+  </div>
+  {% else %}
+  <div class="empty">ยังไม่มีข้อมูล</div>
+  {% endfor %}
+</div>
+
+<h2>สูงสุด / ต่ำสุด</h2>
+<table>
+  <tr><th></th><th>ชื่อ</th><th class="num">ราคา</th></tr>
+  {% if most_expensive %}<tr><td><span class="badge bad">แพงที่สุด</span></td><td>{{ most_expensive.name }}</td><td class="num">{{ most_expensive.price }}</td></tr>{% endif %}
+  {% if cheapest %}<tr><td><span class="badge good">ถูกที่สุด</span></td><td>{{ cheapest.name }}</td><td class="num">{{ cheapest.price }}</td></tr>{% endif %}
+</table>
+{% endblock %}
