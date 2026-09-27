@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+{% if item %}
+<p class="lead">รายการที่ {{ index + 1 }} จาก {{ count }}</p>
+<div class="stat-grid">
+  <div class="stat"><div class="label">ชื่อ</div><div class="value">{{ item.name }}</div></div>
+  <div class="stat"><div class="label">หมวด</div><div class="value">{{ item.category }}</div></div>
+  <div class="stat"><div class="label">จำนวน</div><div class="value">{{ item.qty }}</div></div>
+  <div class="stat"><div class="label">ราคา</div><div class="value">{{ item.price }}</div></div>
+</div>
+<p style="margin-top:18px">💬 {{ sentence }}</p>
+<p>
+  {% if prev is not none %}<a class="btn ghost" href="?i={{ prev }}">← ก่อนหน้า</a>{% endif %}
+  {% if next is not none %}<a class="btn ghost" href="?i={{ next }}">ถัดไป →</a>{% endif %}
+</p>
+{% else %}
+<div class="empty">ยังไม่มีข้อมูลใน data.json</div>
+{% endif %}
+{% endblock %}

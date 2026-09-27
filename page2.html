@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<p class="lead">ค้นหาจากชื่อผู้เล่น คำศัพท์ หรือหมวดหมู่</p><form class="field-row" method="get"><div class="field"><label for="q">คำค้นหา</label><input id="q" name="q" value="{{ keyword }}" placeholder="เช่น python"></div><button class="btn" type="submit">ค้นหา</button></form>
+{% if games %}<table><thead><tr><th>ผู้เล่น</th><th>คำศัพท์</th><th>หมวดหมู่</th><th>ผลลัพธ์</th><th class="num">คะแนน</th></tr></thead><tbody>{% for game in games %}<tr><td>{{ game.player }}</td><td>{{ game.word|upper }}</td><td>{{ game.category }}</td><td>{{ 'ชนะ' if game.status == 'won' else 'แพ้' }}</td><td class="num">{{ game.score }}</td></tr>{% endfor %}</tbody></table>{% else %}<div class="empty">ยังไม่มีประวัติที่ตรงกับคำค้นหา</div>{% endif %}
+{% endblock %}

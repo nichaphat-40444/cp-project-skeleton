@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<p class="lead">ทายตัวอักษรภาษาอังกฤษให้ครบภายใน 6 ครั้งที่ทายผิด</p>
+{% if not game or game.status != "active" %}
+<section class="panel"><h2>{% if game %}เริ่มเกมใหม่{% else %}เริ่มเกม{% endif %}</h2><form method="post"><input type="hidden" name="action" value="start"><div class="field-row"><div class="field"><label for="player">ชื่อผู้เล่น</label><input id="player" name="player" value="{{ game.player if game else '' }}" placeholder="ผู้เล่น" required></div><div class="field"><label for="category">หมวดหมู่</label><select id="category" name="category"><option value="ทั้งหมด">ทุกหมวดหมู่</option>{% for category in categories %}<option value="{{ category }}">{{ category }}</option>{% endfor %}</select></div><div class="field"><label for="difficulty">ระดับความยาก</label><select id="difficulty" name="difficulty"><option value="ทั้งหมด">ทุกระดับ</option>{% for difficulty in difficulties %}<option value="{{ difficulty }}">{{ difficulty }}</option>{% endfor %}</select></div></div><button class="btn" type="submit">เริ่มเกม</button></form></section>
+{% else %}
+<section class="two-col"><div class="panel"><p><strong>ผู้เล่น:</strong> {{ game.player }} · <strong>หมวด:</strong> {{ game.category }} · <strong>ระดับ:</strong> {{ game.difficulty }}</p><div class="game-layout"><pre class="hangman-art">{{ game.drawing() }}</pre><div><h2 class="hangman-word">{{ game.masked_word() }}</h2><p>ทายผิดแล้ว {{ game.wrong }} / {{ max_wrong }} ครั้ง</p><p class="hint">ตัวอย่างตัวอักษร: {{ game.hint_letters|join(', ')|upper if game.hint_letters else game.guessed|join(', ')|upper }}</p></div></div><div class="letter-grid">{% for letter in letters %}<form method="post"><input type="hidden" name="action" value="guess"><input type="hidden" name="letter" value="{{ letter }}"><button class="btn small" type="submit" {% if letter in game.guessed %}disabled{% endif %}>{{ letter|upper }}</button></form>{% endfor %}</div></div><aside class="panel"><h2>ตัวอักษรที่ทายแล้ว</h2><p class="guessed">{{ game.guessed|join(', ')|upper or 'ยังไม่มี' }}</p></aside></section>
+{% endif %}
+{% endblock %}

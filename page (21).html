@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<form method="get" style="display:flex; gap:8px; margin-bottom:16px">
+  <input name="q" value="{{ keyword }}" placeholder="พิมพ์ชื่อหรือหมวด" style="flex:1; max-width:380px; padding:8px 10px; border:1px solid #cbd5e1; border-radius:8px">
+  <button class="btn" type="submit">ค้นหา</button>
+</form>
+<p class="lead">พบ {{ results|length }} จาก {{ total }} รายการ</p>
+
+{% if results %}
+<table>
+  <tr><th>ชื่อ</th><th>หมวด</th><th class="num">จำนวน</th><th class="num">ราคา</th></tr>
+  {% for item in results %}
+  <tr><td>{{ item.name }}</td><td>{{ item.category }}</td><td class="num">{{ item.qty }}</td><td class="num">{{ item.price }}</td></tr>
+  {% endfor %}
+</table>
+{% else %}
+<div class="empty">ไม่พบ "{{ keyword }}"</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{# templates/team.html — the team page. Basic layout given; fill team.json, then make it yours. #}
+{% block content %}
+<h1>{{ group.name }} <small class="muted">· {{ group.section }}</small></h1>
+<p class="lead">{{ group.topic }} — {{ group.description }}</p>
+
+<h2>สมาชิก ({{ count }} คน)</h2>
+<div class="member-grid">
+  {% for m in members %}
+  <div class="member">
+    <div class="avatar">{{ m.initial }}</div>
+    <div class="member-name">{{ m.name }}</div>
+    <div class="muted">{{ m.id }}</div>
+    <div class="role">{{ m.role }}</div>
+    <div class="task">{{ m.task }}</div>
+  </div>
+  {% endfor %}
+</div>
+
+<h2>ตารางงาน</h2>
+<table>
+  <tr><th>ชื่อ</th><th>รหัส</th><th>บทบาท</th><th>งานที่รับผิดชอบ</th></tr>
+  {% for m in members %}
+  <tr><td>{{ m.name }}</td><td>{{ m.id }}</td><td>{{ m.role }}</td><td>{{ m.task }}</td></tr>
+  {% endfor %}
+</table>
+{% endblock %}

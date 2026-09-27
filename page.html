@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<p class="lead">ลองเปลี่ยนตัวเลขแล้วกด "คำนวณ" — ค่าเริ่มต้นคือมูลค่าใน data.json ตอนนี้</p>
+
+<form method="get" class="panel" style="display:flex; gap:14px; flex-wrap:wrap; align-items:flex-end">
+  <div class="field" style="margin:0"><label>เพิ่มต่อเดือน (บาท)</label><input name="monthly" value="{{ monthly }}" inputmode="decimal"></div>
+  <div class="field" style="margin:0"><label>เติบโตต่อปี (%)</label><input name="rate" value="{{ rate }}" inputmode="decimal"></div>
+  <div class="field" style="margin:0"><label>จำนวนเดือน (1–120)</label><input name="months" value="{{ months }}" inputmode="numeric"></div>
+  <button class="btn" type="submit">คำนวณ</button>
+</form>
+
+<div class="stat-grid" style="margin-top:16px">
+  <div class="stat"><div class="label">มูลค่าเริ่มต้น</div><div class="value">{{ "{:,.0f}".format(start) }}</div></div>
+  <div class="stat gold"><div class="label">มูลค่าหลัง {{ months }} เดือน</div><div class="value">{{ "{:,.0f}".format(final) }}</div></div>
+  <div class="stat good"><div class="label">ส่วนที่งอกจากการเติบโต</div><div class="value">{{ "{:,.0f}".format(growth) }}</div></div>
+</div>
+
+<h2>กราฟ</h2>
+<div class="panel">
+  <div class="chart">
+    {% for r in rows %}<div class="col"><div style="height: {{ r.percent }}%"></div></div>{% endfor %}
+  </div>
+  <div class="chart-labels">
+    {% for r in rows %}<span>{% if months <= 24 or r.month % 12 == 0 %}{{ r.month }}{% endif %}</span>{% endfor %}
+  </div>
+</div>
+
+<h2>ตาราง</h2>
+<table>
+  <tr><th>เดือน</th><th class="num">เพิ่มสะสม</th><th class="num">มูลค่ารวม</th></tr>
+  {% for r in rows %}
+  <tr><td>{{ r.month }}</td><td class="num">{{ "{:,.0f}".format(r.added) }}</td><td class="num">{{ "{:,.0f}".format(r.balance) }}</td></tr>
+  {% endfor %}
+</table>
+{% endblock %}

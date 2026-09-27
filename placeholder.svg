@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="280" viewBox="0 0 400 280">
+  <rect width="400" height="280" fill="#f1ede8"/>
+  <circle cx="200" cy="120" r="46" fill="#d9d2c9"/>
+  <rect x="120" y="180" width="160" height="16" rx="8" fill="#d9d2c9"/>
+  <text x="200" y="240" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="14" fill="#8a8178">ยังไม่มีรูป</text>
+</svg>

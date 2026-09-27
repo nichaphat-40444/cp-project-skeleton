@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+
+<div class="two-col">
+  <div>
+    <h2 style="margin-top:0">สินค้า</h2>
+    <div class="card-grid">
+      {% for item in items %}
+      <div class="item-card">
+        <img src="{{ url_for('static', filename='img/' + (item.image if item.image else 'placeholder.svg')) }}" alt="">
+        <div class="body">
+          <span class="badge">{{ item.category }}</span>
+          <b>{{ item.name }}</b>
+          <span class="price">{{ "{:,.0f}".format(item.price) }} บาท</span>
+          <form method="post">
+            <input type="hidden" name="no" value="{{ item.no }}">
+            {% if item.picked %}
+              <input type="hidden" name="action" value="remove">
+              <button class="btn ghost small full" type="submit">อยู่ในตะกร้า ✓ · เอาออก</button>
+            {% else %}
+              <input type="hidden" name="action" value="add">
+              <button class="btn small full" type="submit">หยิบใส่ตะกร้า</button>
+            {% endif %}
+          </form>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2 style="margin-top:0">สรุปราคา</h2>
+    {% if picked %}
+      {% for item in picked %}
+      <div style="display:flex; justify-content:space-between; padding:4px 0"><span>{{ item.name }} × {{ item.qty }}</span><span>{{ "{:,.0f}".format(item.qty * item.price) }}</span></div>
+      {% endfor %}
+      <hr style="border:0; border-top:1px solid var(--line)">
+      <div style="display:flex; justify-content:space-between"><span>จำนวน</span><b>{{ count }} ชิ้น</b></div>
+      <div style="display:flex; justify-content:space-between"><span>รวม</span><b>{{ "{:,.0f}".format(subtotal) }}</b></div>
+      {% if discount %}<div style="display:flex; justify-content:space-between; color:#1b6b3a"><span>ส่วนลด · {{ reason }}</span><b>− {{ "{:,.0f}".format(discount) }}</b></div>{% endif %}
+      <div style="display:flex; justify-content:space-between; font-size:20px; margin-top:8px"><span>ยอดสุทธิ</span><b style="color:var(--maroon)">{{ "{:,.0f}".format(total) }} บาท</b></div>
+      <form method="post" style="margin-top:14px">
+        <input type="hidden" name="action" value="clear">
+        <button class="btn ghost full" type="submit">ล้างตะกร้า</button>
+      </form>
+    {% else %}
+      <div class="empty">ตะกร้าว่าง — กด "หยิบใส่ตะกร้า"</div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

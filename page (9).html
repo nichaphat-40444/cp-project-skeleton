@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<p class="lead">ตอนนี้มี {{ count }} รายการ</p>
+
+<div class="two-col">
+  <form method="post" class="panel">
+    <div class="field">
+      <label for="name">ชื่อ</label>
+      <input id="name" name="name" placeholder="เช่น Multimeter">
+    </div>
+    <div class="field">
+      <label for="category">หมวด</label>
+      <select id="category" name="category">
+        <option value="measure">measure</option>
+        <option value="board">board</option>
+        <option value="tool">tool</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="qty">จำนวน</label>
+      <input id="qty" name="qty" inputmode="numeric" placeholder="0">
+    </div>
+    <div class="field">
+      <label for="price">ราคา (บาท)</label>
+      <input id="price" name="price" inputmode="decimal" placeholder="0.00">
+    </div>
+    <button class="btn" type="submit">บันทึก</button>
+  </form>
+
+  <div class="panel">
+    <h2 style="margin-top:0">รายการทั้งหมด</h2>
+    {% if items %}
+    <table>
+      <tr><th>ชื่อ</th><th class="num">ราคา</th><th></th></tr>
+      {% for item in items|reverse %}
+      <tr>
+        <td>{{ item.name }} <span class="badge">{{ item.category }}</span></td>
+        <td class="num">{{ item.price }}</td>
+        <td style="text-align:right">
+          <form method="post" class="inline" onsubmit="return confirm('ลบ {{ item.name }}?')">
+            <input type="hidden" name="delete" value="{{ item.no }}">
+            <button class="btn small danger" type="submit">ลบ</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+    {% else %}
+    <div class="empty">ยังไม่มีข้อมูล</div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
