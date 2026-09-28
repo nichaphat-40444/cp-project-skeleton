@@ -75,7 +75,7 @@
     "word": "tyre",
     "category": "ประเทศ",
     "difficulty": "ง่าย",
-    "translation": "ยาง",
+    "translation": "ยางรถยนต์",
     "thai_hint": "เป็นชื่อประเทศภาษาอังกฤษ ขึ้นต้นด้วย T และมี 4 ตัวอักษร",
     "remaining_words": [],
     "word_pool": [
@@ -123,7 +123,7 @@
     "round_hints_used": 3,
     "last_result": {
       "word": "tyre",
-      "translation": "ยาง",
+      "translation": "ยางรถยนต์",
       "status": "won"
     },
     "guessed": [
@@ -150,7 +150,7 @@
     "word": "tyre",
     "category": "ประเทศ",
     "difficulty": "ง่าย",
-    "translation": "ยาง",
+    "translation": "ยางรถยนต์",
     "thai_hint": "เป็นชื่อประเทศภาษาอังกฤษ ขึ้นต้นด้วย T และมี 4 ตัวอักษร",
     "remaining_words": [],
     "word_pool": [
@@ -206,7 +206,7 @@
     "word": "tak",
     "category": "จังหวัดไทย",
     "difficulty": "ง่าย",
-    "translation": "จ.ตาก",
+    "translation": "ตาก",
     "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย T และมี 3 ตัวอักษร",
     "remaining_words": [
       "satun",
@@ -252,7 +252,7 @@
     "word": "surin",
     "category": "จังหวัดไทย",
     "difficulty": "ง่าย",
-    "translation": "จ.สุรินทร์",
+    "translation": "สุรินทร์",
     "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย S และมี 5 ตัวอักษร",
     "remaining_words": [
       "satun",
@@ -274,7 +274,7 @@
     "round_hints_used": 2,
     "last_result": {
       "word": "tak",
-      "translation": "จ.ตาก",
+      "translation": "ตาก",
       "status": "won"
     },
     "guessed": [
@@ -291,12 +291,12 @@
     "deadline": 1790571195.0414643
   },
   {
-    "type": "active",
+    "type": "game",
     "player": "pp",
     "word": "trang",
     "category": "จังหวัดไทย",
     "difficulty": "ง่าย",
-    "translation": "จ.ตรัง",
+    "translation": "ตรัง",
     "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย T และมี 5 ตัวอักษร",
     "remaining_words": [
       "satun",
@@ -318,14 +318,1999 @@
     "round_hints_used": 2,
     "last_result": {
       "word": "surin",
-      "translation": "จ.สุรินทร์",
+      "translation": "สุรินทร์",
       "status": "won"
     },
     "guessed": [],
     "hint_letters": [],
     "wrong": 0,
-    "status": "active",
+    "status": "lost",
     "score": 0,
     "deadline": 1790571221.8398716
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "satun",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "สตูล",
+    "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย S และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "korat",
+      "krabi",
+      "loei",
+      "nan",
+      "phrae",
+      "trat"
+    ],
+    "word_pool": [
+      "korat",
+      "krabi",
+      "loei",
+      "nan",
+      "phrae",
+      "satun",
+      "trat"
+    ],
+    "round_words": [
+      "satun"
+    ],
+    "round_hints_used": 1,
+    "guessed": [
+      "s",
+      "u",
+      "a",
+      "k",
+      "r",
+      "t",
+      "n"
+    ],
+    "hint_letters": [
+      "t",
+      "n"
+    ],
+    "wrong": 2,
+    "status": "won",
+    "score": 80,
+    "deadline": 1790572030.2106867
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "korat",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "นครราชสีมา (โคราช)",
+    "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย K และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "krabi",
+      "loei",
+      "nan",
+      "phrae",
+      "trat"
+    ],
+    "word_pool": [
+      "korat",
+      "krabi",
+      "loei",
+      "nan",
+      "phrae",
+      "satun",
+      "trat"
+    ],
+    "round_words": [
+      "korat",
+      "satun"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "satun",
+      "translation": "สตูล",
+      "status": "won"
+    },
+    "guessed": [
+      "k",
+      "a",
+      "u",
+      "n",
+      "r",
+      "o",
+      "t"
+    ],
+    "hint_letters": [
+      "r",
+      "o"
+    ],
+    "wrong": 2,
+    "status": "won",
+    "score": 80,
+    "deadline": 1790572088.9373488
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "nan",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "น่าน",
+    "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย N และมี 3 ตัวอักษร",
+    "remaining_words": [
+      "krabi",
+      "loei",
+      "phrae",
+      "trat"
+    ],
+    "word_pool": [
+      "korat",
+      "krabi",
+      "loei",
+      "nan",
+      "phrae",
+      "satun",
+      "trat"
+    ],
+    "round_words": [
+      "korat",
+      "nan",
+      "satun"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "korat",
+      "translation": "นครราชสีมา (โคราช)",
+      "status": "won"
+    },
+    "guessed": [],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790572146.6229005
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "shelf",
+    "category": "ของใช้ในบ้าน",
+    "difficulty": "ง่าย",
+    "translation": "ชั้นวางของ",
+    "thai_hint": "เป็นของใช้ที่พบได้ในบ้าน ขึ้นต้นด้วย S และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "squab",
+      "stool",
+      "table"
+    ],
+    "word_pool": [
+      "shelf",
+      "squab",
+      "stool",
+      "table"
+    ],
+    "round_words": [
+      "shelf"
+    ],
+    "round_hints_used": 2,
+    "guessed": [
+      "s",
+      "u",
+      "e",
+      "f",
+      "o",
+      "p",
+      "a",
+      "v",
+      "l"
+    ],
+    "hint_letters": [
+      "e",
+      "f",
+      "l"
+    ],
+    "wrong": 5,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790572256.209524
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "trat",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "ตราด",
+    "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย T และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "phrae"
+    ],
+    "word_pool": [
+      "phrae",
+      "trat"
+    ],
+    "round_words": [
+      "trat"
+    ],
+    "round_hints_used": 1,
+    "guessed": [
+      "r",
+      "t",
+      "a"
+    ],
+    "hint_letters": [
+      "r"
+    ],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790572543.5064502
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "phrae",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "แพร่",
+    "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย P และมี 5 ตัวอักษร",
+    "remaining_words": [],
+    "word_pool": [
+      "phrae",
+      "trat"
+    ],
+    "round_words": [
+      "phrae",
+      "trat"
+    ],
+    "round_hints_used": 1,
+    "last_result": {
+      "word": "trat",
+      "translation": "ตราด",
+      "status": "won"
+    },
+    "guessed": [],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790572563.4866068
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "vice",
+    "category": "สิ่งของ",
+    "difficulty": "ง่าย",
+    "translation": "ปากกาจับชิ้นงาน",
+    "thai_hint": "เป็นชื่อสิ่งของหรือเครื่องมือภาษาอังกฤษ ขึ้นต้นด้วย V และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "vise",
+      "winch",
+      "zax"
+    ],
+    "word_pool": [
+      "vice",
+      "vise",
+      "winch",
+      "zax"
+    ],
+    "round_words": [
+      "vice"
+    ],
+    "round_hints_used": 0,
+    "guessed": [
+      "v",
+      "a",
+      "r",
+      "u",
+      "i",
+      "e",
+      "s",
+      "n",
+      "c"
+    ],
+    "hint_letters": [],
+    "wrong": 5,
+    "status": "won",
+    "score": 50,
+    "deadline": 1790572641.4270697
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "winch",
+    "category": "สิ่งของ",
+    "difficulty": "ง่าย",
+    "translation": "เครื่องกว้าน",
+    "thai_hint": "เป็นชื่อสิ่งของหรือเครื่องมือภาษาอังกฤษ ขึ้นต้นด้วย W และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "vise",
+      "zax"
+    ],
+    "word_pool": [
+      "vice",
+      "vise",
+      "winch",
+      "zax"
+    ],
+    "round_words": [
+      "vice",
+      "winch"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "vice",
+      "translation": "ปากกาจับชิ้นงาน",
+      "status": "won"
+    },
+    "guessed": [
+      "n",
+      "i",
+      "c",
+      "h",
+      "w"
+    ],
+    "hint_letters": [
+      "n",
+      "i",
+      "c",
+      "h"
+    ],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790572685.5162392
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "vise",
+    "category": "สิ่งของ",
+    "difficulty": "ง่าย",
+    "translation": "ปากกาจับชิ้นงาน",
+    "thai_hint": "เป็นชื่อสิ่งของหรือเครื่องมือภาษาอังกฤษ ขึ้นต้นด้วย V และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "zax"
+    ],
+    "word_pool": [
+      "vice",
+      "vise",
+      "winch",
+      "zax"
+    ],
+    "round_words": [
+      "vice",
+      "vise",
+      "winch"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "winch",
+      "translation": "เครื่องกว้าน",
+      "status": "won"
+    },
+    "guessed": [],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790572727.9854326
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "rug",
+    "category": "ของใช้ในบ้าน",
+    "difficulty": "ง่าย",
+    "translation": "พรม",
+    "thai_hint": "เป็นของใช้ที่พบได้ในบ้าน ขึ้นต้นด้วย R และมี 3 ตัวอักษร",
+    "remaining_words": [
+      "bed",
+      "chair",
+      "desk",
+      "lamp",
+      "rack",
+      "stool",
+      "table",
+      "bench",
+      "couch"
+    ],
+    "word_pool": [
+      "bed",
+      "chair",
+      "desk",
+      "lamp",
+      "rack",
+      "rug",
+      "stool",
+      "table",
+      "bench",
+      "couch"
+    ],
+    "round_words": [
+      "rug"
+    ],
+    "round_hints_used": 1,
+    "guessed": [
+      "g",
+      "r",
+      "a",
+      "u"
+    ],
+    "hint_letters": [
+      "g",
+      "r"
+    ],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790572925.8733156
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "desk",
+    "category": "ของใช้ในบ้าน",
+    "difficulty": "ง่าย",
+    "translation": "โต๊ะเขียนหนังสือ",
+    "thai_hint": "เป็นของใช้ที่พบได้ในบ้าน ขึ้นต้นด้วย D และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "bed",
+      "chair",
+      "lamp",
+      "rack",
+      "stool",
+      "table",
+      "bench",
+      "couch"
+    ],
+    "word_pool": [
+      "bed",
+      "chair",
+      "desk",
+      "lamp",
+      "rack",
+      "rug",
+      "stool",
+      "table",
+      "bench",
+      "couch"
+    ],
+    "round_words": [
+      "desk",
+      "rug"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "rug",
+      "translation": "พรม",
+      "status": "won"
+    },
+    "guessed": [
+      "d",
+      "k",
+      "s",
+      "u",
+      "a",
+      "o",
+      "i",
+      "e"
+    ],
+    "hint_letters": [
+      "k",
+      "s"
+    ],
+    "wrong": 4,
+    "status": "won",
+    "score": 60,
+    "deadline": 1790572946.9307709
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "bench",
+    "category": "ของใช้ในบ้าน",
+    "difficulty": "ง่าย",
+    "translation": "ม้านั่ง",
+    "thai_hint": "เป็นของใช้ที่พบได้ในบ้าน ขึ้นต้นด้วย B และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "bed",
+      "chair",
+      "lamp",
+      "rack",
+      "stool",
+      "table",
+      "couch"
+    ],
+    "word_pool": [
+      "bed",
+      "chair",
+      "desk",
+      "lamp",
+      "rack",
+      "rug",
+      "stool",
+      "table",
+      "bench",
+      "couch"
+    ],
+    "round_words": [
+      "bench",
+      "desk",
+      "rug"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "desk",
+      "translation": "โต๊ะเขียนหนังสือ",
+      "status": "won"
+    },
+    "guessed": [],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790572992.6497867
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "stool",
+    "category": "ของใช้ในบ้าน",
+    "difficulty": "ง่าย",
+    "translation": "เก้าอี้ไม่มีพนัก",
+    "thai_hint": "เป็นของใช้ที่พบได้ในบ้าน ขึ้นต้นด้วย S และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "bed",
+      "chair",
+      "lamp",
+      "rack",
+      "table",
+      "couch"
+    ],
+    "word_pool": [
+      "bed",
+      "chair",
+      "lamp",
+      "rack",
+      "stool",
+      "table",
+      "couch"
+    ],
+    "round_words": [
+      "stool"
+    ],
+    "round_hints_used": 2,
+    "guessed": [
+      "s",
+      "u",
+      "t",
+      "o",
+      "k",
+      "l"
+    ],
+    "hint_letters": [
+      "t",
+      "o",
+      "l"
+    ],
+    "wrong": 2,
+    "status": "won",
+    "score": 80,
+    "deadline": 1790573119.530891
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "table",
+    "category": "ของใช้ในบ้าน",
+    "difficulty": "ง่าย",
+    "translation": "โต๊ะ",
+    "thai_hint": "เป็นของใช้ที่พบได้ในบ้าน ขึ้นต้นด้วย T และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "bed",
+      "chair",
+      "lamp",
+      "rack",
+      "couch"
+    ],
+    "word_pool": [
+      "bed",
+      "chair",
+      "lamp",
+      "rack",
+      "stool",
+      "table",
+      "couch"
+    ],
+    "round_words": [
+      "stool",
+      "table"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "stool",
+      "translation": "เก้าอี้ไม่มีพนัก",
+      "status": "won"
+    },
+    "guessed": [
+      "l",
+      "a",
+      "t",
+      "n",
+      "s",
+      "e",
+      "f"
+    ],
+    "hint_letters": [
+      "l",
+      "a"
+    ],
+    "wrong": 3,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790573145.2365668
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "iran",
+    "category": "ประเทศ",
+    "difficulty": "ง่าย",
+    "translation": "อิหร่าน",
+    "thai_hint": "เป็นชื่อประเทศภาษาอังกฤษ ขึ้นต้นด้วย I และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "chad",
+      "chile",
+      "china",
+      "cuba",
+      "fiji",
+      "haiti",
+      "india",
+      "iraq",
+      "italy",
+      "japan",
+      "laos",
+      "mali",
+      "nepal",
+      "oman",
+      "peru",
+      "spain",
+      "togo"
+    ],
+    "word_pool": [
+      "chad",
+      "chile",
+      "china",
+      "cuba",
+      "fiji",
+      "haiti",
+      "india",
+      "iran",
+      "iraq",
+      "italy",
+      "japan",
+      "laos",
+      "mali",
+      "nepal",
+      "oman",
+      "peru",
+      "spain",
+      "togo"
+    ],
+    "round_words": [
+      "iran"
+    ],
+    "round_hints_used": 1,
+    "guessed": [
+      "i",
+      "n",
+      "a",
+      "r"
+    ],
+    "hint_letters": [
+      "a",
+      "r"
+    ],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790573211.3000715
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "fiji",
+    "category": "ประเทศ",
+    "difficulty": "ง่าย",
+    "translation": "ฟิจิ",
+    "thai_hint": "เป็นชื่อประเทศภาษาอังกฤษ ขึ้นต้นด้วย F และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "chad",
+      "chile",
+      "china",
+      "cuba",
+      "haiti",
+      "india",
+      "iraq",
+      "italy",
+      "japan",
+      "laos",
+      "mali",
+      "nepal",
+      "oman",
+      "peru",
+      "spain",
+      "togo"
+    ],
+    "word_pool": [
+      "chad",
+      "chile",
+      "china",
+      "cuba",
+      "fiji",
+      "haiti",
+      "india",
+      "iran",
+      "iraq",
+      "italy",
+      "japan",
+      "laos",
+      "mali",
+      "nepal",
+      "oman",
+      "peru",
+      "spain",
+      "togo"
+    ],
+    "round_words": [
+      "fiji",
+      "iran"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "iran",
+      "translation": "อิหร่าน",
+      "status": "won"
+    },
+    "guessed": [
+      "i",
+      "f",
+      "j"
+    ],
+    "hint_letters": [
+      "i",
+      "j"
+    ],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790573227.8961155
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "chad",
+    "category": "ประเทศ",
+    "difficulty": "ง่าย",
+    "translation": "ชาด",
+    "thai_hint": "เป็นชื่อประเทศภาษาอังกฤษ ขึ้นต้นด้วย C และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "chile",
+      "china",
+      "cuba",
+      "haiti",
+      "india",
+      "iraq",
+      "italy",
+      "japan",
+      "laos",
+      "mali",
+      "nepal",
+      "oman",
+      "peru",
+      "spain",
+      "togo"
+    ],
+    "word_pool": [
+      "chad",
+      "chile",
+      "china",
+      "cuba",
+      "fiji",
+      "haiti",
+      "india",
+      "iran",
+      "iraq",
+      "italy",
+      "japan",
+      "laos",
+      "mali",
+      "nepal",
+      "oman",
+      "peru",
+      "spain",
+      "togo"
+    ],
+    "round_words": [
+      "chad",
+      "fiji",
+      "iran"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "fiji",
+      "translation": "ฟิจิ",
+      "status": "won"
+    },
+    "guessed": [
+      "c",
+      "a",
+      "i",
+      "l"
+    ],
+    "hint_letters": [],
+    "wrong": 2,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790573253.5845037
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "fish",
+    "category": "สัตว์",
+    "difficulty": "ง่าย",
+    "translation": "ปลา",
+    "thai_hint": "เป็นชื่อสัตว์ภาษาอังกฤษ ขึ้นต้นด้วย F และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "bear",
+      "bee",
+      "bird",
+      "camel",
+      "cat",
+      "cow",
+      "deer",
+      "dog",
+      "duck",
+      "eagle",
+      "fox",
+      "frog",
+      "goat",
+      "hen",
+      "horse",
+      "lion",
+      "mouse",
+      "owl",
+      "pig",
+      "shark",
+      "sheep",
+      "snake",
+      "tiger",
+      "zebra"
+    ],
+    "word_pool": [
+      "bear",
+      "bee",
+      "bird",
+      "camel",
+      "cat",
+      "cow",
+      "deer",
+      "dog",
+      "duck",
+      "eagle",
+      "fish",
+      "fox",
+      "frog",
+      "goat",
+      "hen",
+      "horse",
+      "lion",
+      "mouse",
+      "owl",
+      "pig",
+      "shark",
+      "sheep",
+      "snake",
+      "tiger",
+      "zebra"
+    ],
+    "round_words": [
+      "fish"
+    ],
+    "round_hints_used": 3,
+    "last_hint_letters": [
+      "h"
+    ],
+    "guessed": [
+      "s",
+      "f",
+      "i",
+      "h"
+    ],
+    "hint_letters": [
+      "s",
+      "f",
+      "i",
+      "h"
+    ],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790573523.9446285
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "horse",
+    "category": "สัตว์",
+    "difficulty": "ง่าย",
+    "translation": "ม้า",
+    "thai_hint": "เป็นชื่อสัตว์ภาษาอังกฤษ ขึ้นต้นด้วย H และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "bear",
+      "bee",
+      "bird",
+      "camel",
+      "cat",
+      "cow",
+      "deer",
+      "dog",
+      "duck",
+      "eagle",
+      "fox",
+      "frog",
+      "goat",
+      "hen",
+      "lion",
+      "mouse",
+      "owl",
+      "pig",
+      "shark",
+      "sheep",
+      "snake",
+      "tiger",
+      "zebra"
+    ],
+    "word_pool": [
+      "bear",
+      "bee",
+      "bird",
+      "camel",
+      "cat",
+      "cow",
+      "deer",
+      "dog",
+      "duck",
+      "eagle",
+      "fish",
+      "fox",
+      "frog",
+      "goat",
+      "hen",
+      "horse",
+      "lion",
+      "mouse",
+      "owl",
+      "pig",
+      "shark",
+      "sheep",
+      "snake",
+      "tiger",
+      "zebra"
+    ],
+    "round_words": [
+      "fish",
+      "horse"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "fish",
+      "translation": "ปลา",
+      "status": "won",
+      "hint_letters": [
+        "h"
+      ]
+    },
+    "guessed": [
+      "h",
+      "a",
+      "o",
+      "u",
+      "s",
+      "e"
+    ],
+    "hint_letters": [],
+    "wrong": 2,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790573547.9224644
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "saw",
+    "category": "สิ่งของ",
+    "difficulty": "ง่าย",
+    "translation": "เลื่อย",
+    "thai_hint": "เป็นชื่อสิ่งของหรือเครื่องมือภาษาอังกฤษ ขึ้นต้นด้วย S และมี 3 ตัวอักษร",
+    "remaining_words": [
+      "axe",
+      "file",
+      "nail",
+      "bit",
+      "drill",
+      "jack",
+      "level",
+      "plier",
+      "screw"
+    ],
+    "word_pool": [
+      "axe",
+      "file",
+      "nail",
+      "saw",
+      "bit",
+      "drill",
+      "jack",
+      "level",
+      "plier",
+      "screw"
+    ],
+    "round_words": [
+      "saw"
+    ],
+    "round_hints_used": 1,
+    "last_hint_letters": [
+      "w"
+    ],
+    "guessed": [
+      "s",
+      "i",
+      "a",
+      "w"
+    ],
+    "hint_letters": [
+      "w"
+    ],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790573616.6356785
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "level",
+    "category": "สิ่งของ",
+    "difficulty": "ง่าย",
+    "translation": "ระดับน้ำ",
+    "thai_hint": "เป็นชื่อสิ่งของหรือเครื่องมือภาษาอังกฤษ ขึ้นต้นด้วย L และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "axe",
+      "file",
+      "nail",
+      "bit",
+      "drill",
+      "jack",
+      "plier",
+      "screw"
+    ],
+    "word_pool": [
+      "axe",
+      "file",
+      "nail",
+      "saw",
+      "bit",
+      "drill",
+      "jack",
+      "level",
+      "plier",
+      "screw"
+    ],
+    "round_words": [
+      "level",
+      "saw"
+    ],
+    "round_hints_used": 1,
+    "last_result": {
+      "word": "saw",
+      "translation": "เลื่อย",
+      "status": "won",
+      "hint_letters": [
+        "w"
+      ]
+    },
+    "guessed": [],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790573657.8025987
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "fox",
+    "category": "สัตว์",
+    "difficulty": "ง่าย",
+    "translation": "สุนัขจิ้งจอก",
+    "thai_hint": "เป็นชื่อสัตว์ภาษาอังกฤษ ขึ้นต้นด้วย F และมี 3 ตัวอักษร",
+    "remaining_words": [
+      "bear",
+      "bee",
+      "bird",
+      "camel",
+      "cat",
+      "cow",
+      "deer",
+      "dog",
+      "duck",
+      "eagle",
+      "frog",
+      "goat",
+      "hen",
+      "lion",
+      "mouse",
+      "owl",
+      "pig",
+      "shark",
+      "sheep",
+      "snake",
+      "tiger",
+      "zebra"
+    ],
+    "word_pool": [
+      "bear",
+      "bee",
+      "bird",
+      "camel",
+      "cat",
+      "cow",
+      "deer",
+      "dog",
+      "duck",
+      "eagle",
+      "fox",
+      "frog",
+      "goat",
+      "hen",
+      "lion",
+      "mouse",
+      "owl",
+      "pig",
+      "shark",
+      "sheep",
+      "snake",
+      "tiger",
+      "zebra"
+    ],
+    "round_words": [
+      "fox"
+    ],
+    "round_hints_used": 0,
+    "last_hint_letters": [],
+    "guessed": [
+      "f",
+      "i"
+    ],
+    "hint_letters": [],
+    "wrong": 1,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790573795.4717453
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "axe",
+    "category": "สิ่งของ",
+    "difficulty": "ง่าย",
+    "translation": "ขวาน",
+    "thai_hint": "เป็นชื่อสิ่งของหรือเครื่องมือภาษาอังกฤษ ขึ้นต้นด้วย A และมี 3 ตัวอักษร",
+    "remaining_words": [
+      "file",
+      "nail",
+      "bit",
+      "drill",
+      "jack",
+      "plier",
+      "screw"
+    ],
+    "word_pool": [
+      "axe",
+      "file",
+      "nail",
+      "bit",
+      "drill",
+      "jack",
+      "plier",
+      "screw"
+    ],
+    "round_words": [
+      "axe"
+    ],
+    "round_hints_used": 0,
+    "last_hint_letters": [],
+    "guessed": [
+      "a"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790573861.0024648
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "loei",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "เลย",
+    "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย L และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "krabi"
+    ],
+    "word_pool": [
+      "loei",
+      "krabi"
+    ],
+    "round_words": [
+      "loei"
+    ],
+    "round_hints_used": 1,
+    "last_hint_letters": [
+      "i"
+    ],
+    "guessed": [
+      "l",
+      "i"
+    ],
+    "hint_letters": [
+      "i"
+    ],
+    "wrong": 0,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790574049.2996094
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "oman",
+    "category": "ประเทศ",
+    "difficulty": "ง่าย",
+    "translation": "โอมาน",
+    "thai_hint": "ประเทศบนคาบสมุทรอาหรับ ติดทะเลอาหรับ คำตอบขึ้นต้นด้วย O และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "chile",
+      "china",
+      "cuba",
+      "haiti",
+      "india",
+      "iraq",
+      "italy",
+      "japan",
+      "laos",
+      "mali",
+      "nepal",
+      "peru",
+      "spain",
+      "togo"
+    ],
+    "word_pool": [
+      "chile",
+      "china",
+      "cuba",
+      "haiti",
+      "india",
+      "iraq",
+      "italy",
+      "japan",
+      "laos",
+      "mali",
+      "nepal",
+      "oman",
+      "peru",
+      "spain",
+      "togo"
+    ],
+    "round_words": [
+      "oman"
+    ],
+    "round_hints_used": 1,
+    "last_hint_letters": [
+      "m",
+      "n"
+    ],
+    "guessed": [
+      "o",
+      "m",
+      "n",
+      "e",
+      "a"
+    ],
+    "hint_letters": [
+      "m",
+      "n"
+    ],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790574297.7853189
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "iraq",
+    "category": "ประเทศ",
+    "difficulty": "ง่าย",
+    "translation": "อิรัก",
+    "thai_hint": "ประเทศในตะวันออกกลาง ระหว่างแม่น้ำไทกริสและยูเฟรทีส คำตอบขึ้นต้นด้วย I และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "chile",
+      "china",
+      "cuba",
+      "haiti",
+      "india",
+      "italy",
+      "japan",
+      "laos",
+      "mali",
+      "nepal",
+      "peru",
+      "spain",
+      "togo"
+    ],
+    "word_pool": [
+      "chile",
+      "china",
+      "cuba",
+      "haiti",
+      "india",
+      "iraq",
+      "italy",
+      "japan",
+      "laos",
+      "mali",
+      "nepal",
+      "oman",
+      "peru",
+      "spain",
+      "togo"
+    ],
+    "round_words": [
+      "iraq",
+      "oman"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "oman",
+      "translation": "โอมาน",
+      "status": "won",
+      "hint_letters": [
+        "m",
+        "n"
+      ]
+    },
+    "guessed": [
+      "i",
+      "a",
+      "s",
+      "p",
+      "r",
+      "q"
+    ],
+    "hint_letters": [
+      "a",
+      "r",
+      "q"
+    ],
+    "wrong": 2,
+    "status": "won",
+    "score": 80,
+    "deadline": 1790574331.284831,
+    "last_hint_letters": [
+      "r",
+      "q"
+    ]
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "krabi",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "กระบี่",
+    "thai_hint": "จังหวัดภาคใต้ฝั่งอันดามัน มีหน้าผาหินปูนและเกาะพีพี คำตอบขึ้นต้นด้วย K และมี 5 ตัวอักษร",
+    "remaining_words": [],
+    "word_pool": [
+      "krabi"
+    ],
+    "round_words": [
+      "krabi"
+    ],
+    "round_hints_used": 0,
+    "last_hint_letters": [],
+    "guessed": [
+      "k",
+      "a",
+      "b",
+      "i",
+      "e",
+      "r"
+    ],
+    "hint_letters": [],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790574449.255084
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "korat",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "นครราชสีมา (โคราช)",
+    "thai_hint": "ชื่อเรียกสั้นของจังหวัดภาคตะวันออกเฉียงเหนือที่มีพื้นที่กว้างใหญ่ คำตอบขึ้นต้นด้วย K และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "korat",
+      "krabi"
+    ],
+    "round_hints_used": 0,
+    "last_result": {
+      "word": "krabi",
+      "translation": "กระบี่",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "k",
+      "o",
+      "r",
+      "a",
+      "t"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790574480.3783584
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "nan",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "น่าน",
+    "thai_hint": "จังหวัดภาคเหนือ มีภูเขาและภาพจิตรกรรมฝาผนังวัดภูมินทร์ คำตอบขึ้นต้นด้วย N และมี 3 ตัวอักษร",
+    "remaining_words": [
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "korat",
+      "krabi",
+      "nan"
+    ],
+    "round_hints_used": 0,
+    "last_result": {
+      "word": "korat",
+      "translation": "นครราชสีมา (โคราช)",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "n",
+      "a"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790574513.8183937
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "tak",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "ตาก",
+    "thai_hint": "จังหวัดภาคตะวันตกติดชายแดนเมียนมา มีน้ำตกทีลอซู คำตอบขึ้นต้นด้วย T และมี 3 ตัวอักษร",
+    "remaining_words": [
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "korat",
+      "krabi",
+      "nan",
+      "tak"
+    ],
+    "round_hints_used": 0,
+    "last_result": {
+      "word": "nan",
+      "translation": "น่าน",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "t",
+      "a",
+      "k"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790574528.1684399
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "satun",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "สตูล",
+    "thai_hint": "จังหวัดภาคใต้ฝั่งอันดามัน ติดชายแดนมาเลเซียและมีเกาะหลีเป๊ะ คำตอบขึ้นต้นด้วย S และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "trat",
+      "yala",
+      "loei",
+      "surin",
+      "trang",
+      "phrae"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "korat",
+      "krabi",
+      "nan",
+      "satun",
+      "tak"
+    ],
+    "round_hints_used": 0,
+    "last_result": {
+      "word": "tak",
+      "translation": "ตาก",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "s",
+      "u",
+      "r",
+      "a",
+      "m",
+      "t",
+      "n"
+    ],
+    "hint_letters": [],
+    "wrong": 2,
+    "status": "won",
+    "score": 80,
+    "deadline": 1790574552.4485326
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "trang",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "ตรัง",
+    "thai_hint": "จังหวัดภาคใต้ฝั่งอันดามัน มีเกาะและถ้ำมรกต คำตอบขึ้นต้นด้วย T และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "trat",
+      "yala",
+      "loei",
+      "surin",
+      "phrae"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "korat",
+      "krabi",
+      "nan",
+      "satun",
+      "tak",
+      "trang"
+    ],
+    "round_hints_used": 1,
+    "last_result": {
+      "word": "satun",
+      "translation": "สตูล",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "t",
+      "r",
+      "a",
+      "d",
+      "g",
+      "n"
+    ],
+    "hint_letters": [
+      "g",
+      "n"
+    ],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790574596.9229617,
+    "last_hint_letters": [
+      "g",
+      "n"
+    ]
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "loei",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "เลย",
+    "thai_hint": "จังหวัดภาคตะวันออกเฉียงเหนือ มีภูเขาและอากาศหนาวในบางฤดู คำตอบขึ้นต้นด้วย L และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "trat",
+      "yala",
+      "surin",
+      "phrae"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "korat",
+      "krabi",
+      "loei",
+      "nan",
+      "satun",
+      "tak",
+      "trang"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "trang",
+      "translation": "ตรัง",
+      "status": "won",
+      "hint_letters": [
+        "g",
+        "n"
+      ]
+    },
+    "guessed": [
+      "l",
+      "o",
+      "e",
+      "y",
+      "i"
+    ],
+    "hint_letters": [
+      "i"
+    ],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790574638.0194125,
+    "last_hint_letters": [
+      "i"
+    ]
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "yala",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "ยะลา",
+    "thai_hint": "จังหวัดชายแดนใต้สุดของประเทศไทย ไม่มีพื้นที่ติดทะเล คำตอบขึ้นต้นด้วย Y และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "trat",
+      "surin",
+      "phrae"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "korat",
+      "krabi",
+      "loei",
+      "nan",
+      "satun",
+      "tak",
+      "trang",
+      "yala"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "loei",
+      "translation": "เลย",
+      "status": "won",
+      "hint_letters": [
+        "i"
+      ]
+    },
+    "guessed": [
+      "y",
+      "a",
+      "l"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790574676.413568
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "surin",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "สุรินทร์",
+    "thai_hint": "จังหวัดภาคตะวันออกเฉียงเหนือ มีชื่อเสียงเรื่องช้าง คำตอบขึ้นต้นด้วย S และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "trat",
+      "phrae"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "korat",
+      "krabi",
+      "loei",
+      "nan",
+      "satun",
+      "surin",
+      "tak",
+      "trang",
+      "yala"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "yala",
+      "translation": "ยะลา",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "s",
+      "u",
+      "r",
+      "i",
+      "n"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790574689.5094302
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "trat",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "ตราด",
+    "thai_hint": "จังหวัดภาคตะวันออกติดกัมพูชา เป็นทางไปเกาะช้าง คำตอบขึ้นต้นด้วย T และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "phrae"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "korat",
+      "krabi",
+      "loei",
+      "nan",
+      "satun",
+      "surin",
+      "tak",
+      "trang",
+      "trat",
+      "yala"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "surin",
+      "translation": "สุรินทร์",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "r",
+      "t",
+      "a"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790574702.6246686
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "phrae",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "แพร่",
+    "thai_hint": "จังหวัดภาคเหนือ มีบ้านไม้สักและวัดเก่าแก่ คำตอบขึ้นต้นด้วย P และมี 5 ตัวอักษร",
+    "remaining_words": [],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "korat",
+      "krabi",
+      "loei",
+      "nan",
+      "phrae",
+      "satun",
+      "surin",
+      "tak",
+      "trang",
+      "trat",
+      "yala"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "trat",
+      "translation": "ตราด",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "p",
+      "a",
+      "y",
+      "r",
+      "h",
+      "e"
+    ],
+    "hint_letters": [
+      "h"
+    ],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790574751.7631347,
+    "last_hint_letters": [
+      "h"
+    ]
   }
 ]
