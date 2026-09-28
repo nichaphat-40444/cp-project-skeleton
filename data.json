@@ -2312,5 +2312,981 @@
     "last_hint_letters": [
       "h"
     ]
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "chair",
+    "category": "ของใช้ในบ้าน",
+    "difficulty": "ง่าย",
+    "translation": "เก้าอี้",
+    "thai_hint": "ที่นั่งสำหรับหนึ่งคน โดยทั่วไปมีพนักพิงและขา คำตอบขึ้นต้นด้วย C และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "bed",
+      "lamp",
+      "rack",
+      "couch"
+    ],
+    "word_pool": [
+      "bed",
+      "chair",
+      "lamp",
+      "rack",
+      "couch"
+    ],
+    "round_words": [
+      "chair"
+    ],
+    "round_hints_used": 0,
+    "last_hint_letters": [],
+    "guessed": [
+      "c",
+      "a",
+      "r",
+      "h",
+      "e",
+      "i"
+    ],
+    "hint_letters": [],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790575736.9712856
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "rack",
+    "category": "ของใช้ในบ้าน",
+    "difficulty": "ง่าย",
+    "translation": "ชั้นวางของ",
+    "thai_hint": "โครงหรือชั้นสำหรับวางและจัดเก็บสิ่งของ คำตอบขึ้นต้นด้วย R และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "bed",
+      "lamp",
+      "couch"
+    ],
+    "word_pool": [
+      "bed",
+      "chair",
+      "lamp",
+      "rack",
+      "couch"
+    ],
+    "round_words": [
+      "chair",
+      "rack"
+    ],
+    "round_hints_used": 1,
+    "last_result": {
+      "word": "chair",
+      "translation": "เก้าอี้",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "r",
+      "o",
+      "l",
+      "k",
+      "u",
+      "e"
+    ],
+    "hint_letters": [
+      "k"
+    ],
+    "wrong": 4,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790575768.957422,
+    "last_hint_letters": [
+      "k"
+    ]
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "nan",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "น่าน",
+    "thai_hint": "จังหวัดภาคเหนือ มีภูเขาและภาพจิตรกรรมฝาผนังวัดภูมินทร์ คำตอบขึ้นต้นด้วย N และมี 3 ตัวอักษร",
+    "remaining_words": [
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "nan"
+    ],
+    "round_hints_used": 0,
+    "last_hint_letters": [],
+    "guessed": [
+      "n",
+      "a"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790575837.4016771
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "trat",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "ตราด",
+    "thai_hint": "จังหวัดภาคตะวันออกติดกัมพูชา เป็นทางไปเกาะช้าง คำตอบขึ้นต้นด้วย T และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "tak",
+      "yala",
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "nan",
+      "trat"
+    ],
+    "round_hints_used": 0,
+    "last_result": {
+      "word": "nan",
+      "translation": "น่าน",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "t",
+      "r",
+      "a"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790575851.1312783
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "yala",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "ยะลา",
+    "thai_hint": "จังหวัดชายแดนใต้สุดของประเทศไทย ไม่มีพื้นที่ติดทะเล คำตอบขึ้นต้นด้วย Y และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "tak",
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "nan",
+      "trat",
+      "yala"
+    ],
+    "round_hints_used": 0,
+    "last_result": {
+      "word": "trat",
+      "translation": "ตราด",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "y",
+      "a",
+      "l"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790575873.6545568
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "tak",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "ตาก",
+    "thai_hint": "จังหวัดภาคตะวันตกติดชายแดนเมียนมา มีน้ำตกทีลอซู คำตอบขึ้นต้นด้วย T และมี 3 ตัวอักษร",
+    "remaining_words": [
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "nan",
+      "tak",
+      "trat",
+      "yala"
+    ],
+    "round_hints_used": 1,
+    "last_result": {
+      "word": "yala",
+      "translation": "ยะลา",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "t",
+      "a",
+      "k"
+    ],
+    "hint_letters": [
+      "a"
+    ],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790575889.6675553,
+    "last_hint_letters": [
+      "a"
+    ]
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "surin",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "สุรินทร์",
+    "thai_hint": "จังหวัดภาคตะวันออกเฉียงเหนือ มีชื่อเสียงเรื่องช้าง คำตอบขึ้นต้นด้วย S และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "loei",
+      "krabi",
+      "satun",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "nan",
+      "surin",
+      "tak",
+      "trat",
+      "yala"
+    ],
+    "round_hints_used": 1,
+    "last_result": {
+      "word": "tak",
+      "translation": "ตาก",
+      "status": "won",
+      "hint_letters": [
+        "a"
+      ]
+    },
+    "guessed": [
+      "s",
+      "u",
+      "r",
+      "i",
+      "n"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790575936.3991513
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "satun",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "สตูล",
+    "thai_hint": "จังหวัดภาคใต้ฝั่งอันดามัน ติดชายแดนมาเลเซียและมีเกาะหลีเป๊ะ คำตอบขึ้นต้นด้วย S และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "loei",
+      "krabi",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "nan",
+      "satun",
+      "surin",
+      "tak",
+      "trat",
+      "yala"
+    ],
+    "round_hints_used": 1,
+    "last_result": {
+      "word": "surin",
+      "translation": "สุรินทร์",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "s",
+      "u",
+      "a",
+      "t",
+      "n"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790575958.1071525
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "phrae",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "แพร่",
+    "thai_hint": "จังหวัดภาคเหนือ มีบ้านไม้สักและวัดเก่าแก่ คำตอบขึ้นต้นด้วย P และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "loei",
+      "krabi",
+      "trang",
+      "korat"
+    ],
+    "word_pool": [
+      "nan",
+      "tak",
+      "trat",
+      "yala",
+      "loei",
+      "krabi",
+      "satun",
+      "surin",
+      "trang",
+      "phrae",
+      "korat"
+    ],
+    "round_words": [
+      "nan",
+      "phrae",
+      "satun",
+      "surin",
+      "tak",
+      "trat",
+      "yala"
+    ],
+    "round_hints_used": 1,
+    "last_result": {
+      "word": "satun",
+      "translation": "สตูล",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "p",
+      "a",
+      "u",
+      "r",
+      "e",
+      "i"
+    ],
+    "hint_letters": [],
+    "wrong": 2,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790575988.4686718
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "turtle",
+    "category": "สัตว์",
+    "difficulty": "กลาง",
+    "translation": "เต่า",
+    "thai_hint": "สัตว์เลื้อยคลานที่มีกระดองแข็งปกป้องลำตัว คำตอบขึ้นต้นด้วย T และมี 6 ตัวอักษร",
+    "remaining_words": [
+      "chicken",
+      "dolphin",
+      "hamster",
+      "leopard",
+      "monkey",
+      "parrot",
+      "rabbit",
+      "elephant",
+      "kangaroo"
+    ],
+    "word_pool": [
+      "chicken",
+      "dolphin",
+      "hamster",
+      "leopard",
+      "monkey",
+      "parrot",
+      "rabbit",
+      "turtle",
+      "elephant",
+      "kangaroo"
+    ],
+    "round_words": [
+      "turtle"
+    ],
+    "round_hints_used": 0,
+    "last_hint_letters": [],
+    "guessed": [
+      "t",
+      "u",
+      "r",
+      "a",
+      "e",
+      "o",
+      "l"
+    ],
+    "hint_letters": [],
+    "wrong": 2,
+    "status": "won",
+    "score": 80,
+    "deadline": 1790576097.9182029
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "chicken",
+    "category": "สัตว์",
+    "difficulty": "กลาง",
+    "translation": "ไก่",
+    "thai_hint": "สัตว์ปีกเลี้ยงในฟาร์ม มีทั้งเพศผู้และเพศเมีย คำตอบขึ้นต้นด้วย C และมี 7 ตัวอักษร",
+    "remaining_words": [
+      "dolphin",
+      "hamster",
+      "leopard",
+      "monkey",
+      "parrot",
+      "rabbit",
+      "elephant",
+      "kangaroo"
+    ],
+    "word_pool": [
+      "chicken",
+      "dolphin",
+      "hamster",
+      "leopard",
+      "monkey",
+      "parrot",
+      "rabbit",
+      "turtle",
+      "elephant",
+      "kangaroo"
+    ],
+    "round_words": [
+      "chicken",
+      "turtle"
+    ],
+    "round_hints_used": 0,
+    "last_result": {
+      "word": "turtle",
+      "translation": "เต่า",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "c",
+      "h",
+      "i",
+      "k",
+      "e",
+      "n"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790576138.3382134
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "hamster",
+    "category": "สัตว์",
+    "difficulty": "กลาง",
+    "translation": "หนูแฮมสเตอร์",
+    "thai_hint": "สัตว์ฟันแทะตัวเล็กที่เก็บอาหารไว้ในกระพุ้งแก้ม คำตอบขึ้นต้นด้วย H และมี 7 ตัวอักษร",
+    "remaining_words": [
+      "dolphin",
+      "leopard",
+      "monkey",
+      "parrot",
+      "rabbit",
+      "elephant",
+      "kangaroo"
+    ],
+    "word_pool": [
+      "chicken",
+      "dolphin",
+      "hamster",
+      "leopard",
+      "monkey",
+      "parrot",
+      "rabbit",
+      "turtle",
+      "elephant",
+      "kangaroo"
+    ],
+    "round_words": [
+      "chicken",
+      "hamster",
+      "turtle"
+    ],
+    "round_hints_used": 0,
+    "last_result": {
+      "word": "chicken",
+      "translation": "ไก่",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "h",
+      "a",
+      "m",
+      "t",
+      "s",
+      "e",
+      "r"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790576163.9427605
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "leopard",
+    "category": "สัตว์",
+    "difficulty": "กลาง",
+    "translation": "เสือดาว",
+    "thai_hint": "แมวใหญ่ลายจุด ว่องไวและปีนต้นไม้เก่ง คำตอบขึ้นต้นด้วย L และมี 7 ตัวอักษร",
+    "remaining_words": [
+      "dolphin",
+      "monkey",
+      "parrot",
+      "rabbit",
+      "elephant",
+      "kangaroo"
+    ],
+    "word_pool": [
+      "chicken",
+      "dolphin",
+      "hamster",
+      "leopard",
+      "monkey",
+      "parrot",
+      "rabbit",
+      "turtle",
+      "elephant",
+      "kangaroo"
+    ],
+    "round_words": [
+      "chicken",
+      "hamster",
+      "leopard",
+      "turtle"
+    ],
+    "round_hints_used": 1,
+    "last_result": {
+      "word": "hamster",
+      "translation": "หนูแฮมสเตอร์",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "l",
+      "i",
+      "e",
+      "o",
+      "n",
+      "r",
+      "u",
+      "a"
+    ],
+    "hint_letters": [
+      "r"
+    ],
+    "wrong": 3,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790576191.5574028,
+    "last_hint_letters": [
+      "r"
+    ]
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "switzerland",
+    "category": "ประเทศ",
+    "difficulty": "ยาก",
+    "translation": "สวิตเซอร์แลนด์",
+    "thai_hint": "ประเทศในยุโรปกลางที่มีเทือกเขาแอลป์ คำตอบขึ้นต้นด้วย S และมี 11 ตัวอักษร",
+    "remaining_words": [
+      "argentina",
+      "australia",
+      "indonesia",
+      "singapore",
+      "netherlands",
+      "philippines",
+      "madagascar"
+    ],
+    "word_pool": [
+      "argentina",
+      "australia",
+      "indonesia",
+      "singapore",
+      "switzerland",
+      "netherlands",
+      "philippines",
+      "madagascar"
+    ],
+    "round_words": [
+      "switzerland"
+    ],
+    "round_hints_used": 0,
+    "last_hint_letters": [],
+    "guessed": [
+      "s",
+      "w",
+      "i",
+      "d",
+      "n",
+      "l",
+      "a",
+      "t",
+      "z",
+      "e",
+      "r"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790576334.1473694
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "madagascar",
+    "category": "ประเทศ",
+    "difficulty": "ยาก",
+    "translation": "มาดากัสการ์",
+    "thai_hint": "เกาะขนาดใหญ่ทางตะวันออกของชายฝั่งแอฟริกา คำตอบขึ้นต้นด้วย M และมี 10 ตัวอักษร",
+    "remaining_words": [
+      "argentina",
+      "australia",
+      "indonesia",
+      "singapore",
+      "netherlands",
+      "philippines"
+    ],
+    "word_pool": [
+      "argentina",
+      "australia",
+      "indonesia",
+      "singapore",
+      "switzerland",
+      "netherlands",
+      "philippines",
+      "madagascar"
+    ],
+    "round_words": [
+      "madagascar",
+      "switzerland"
+    ],
+    "round_hints_used": 0,
+    "last_result": {
+      "word": "switzerland",
+      "translation": "สวิตเซอร์แลนด์",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "m",
+      "a",
+      "x",
+      "d",
+      "g",
+      "k",
+      "c",
+      "z",
+      "s",
+      "r"
+    ],
+    "hint_letters": [],
+    "wrong": 3,
+    "status": "won",
+    "score": 70,
+    "deadline": 1790576384.029698
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "singapore",
+    "category": "ประเทศ",
+    "difficulty": "ยาก",
+    "translation": "สิงคโปร์",
+    "thai_hint": "ประเทศเกาะขนาดเล็กทางใต้ของคาบสมุทรมลายู คำตอบขึ้นต้นด้วย S และมี 9 ตัวอักษร",
+    "remaining_words": [
+      "argentina",
+      "australia",
+      "indonesia",
+      "netherlands",
+      "philippines"
+    ],
+    "word_pool": [
+      "argentina",
+      "australia",
+      "indonesia",
+      "singapore",
+      "switzerland",
+      "netherlands",
+      "philippines",
+      "madagascar"
+    ],
+    "round_words": [
+      "madagascar",
+      "singapore",
+      "switzerland"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "madagascar",
+      "translation": "มาดากัสการ์",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "s",
+      "o",
+      "r",
+      "i",
+      "n",
+      "g",
+      "a",
+      "p",
+      "d",
+      "e"
+    ],
+    "hint_letters": [
+      "o",
+      "r",
+      "i"
+    ],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790576423.3742847,
+    "last_hint_letters": [
+      "i"
+    ]
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "australia",
+    "category": "ประเทศ",
+    "difficulty": "ยาก",
+    "translation": "ออสเตรเลีย",
+    "thai_hint": "ประเทศและทวีปบนซีกโลกใต้ มีสัตว์อย่างจิงโจ้ คำตอบขึ้นต้นด้วย A และมี 9 ตัวอักษร",
+    "remaining_words": [
+      "argentina",
+      "indonesia",
+      "netherlands",
+      "philippines"
+    ],
+    "word_pool": [
+      "argentina",
+      "australia",
+      "indonesia",
+      "singapore",
+      "switzerland",
+      "netherlands",
+      "philippines",
+      "madagascar"
+    ],
+    "round_words": [
+      "australia",
+      "madagascar",
+      "singapore",
+      "switzerland"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "singapore",
+      "translation": "สิงคโปร์",
+      "status": "won",
+      "hint_letters": [
+        "i"
+      ]
+    },
+    "guessed": [
+      "a",
+      "s",
+      "u",
+      "t",
+      "r",
+      "i",
+      "l"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790576471.3960984
+  },
+  {
+    "type": "game",
+    "player": "p",
+    "word": "argentina",
+    "category": "ประเทศ",
+    "difficulty": "ยาก",
+    "translation": "อาร์เจนตินา",
+    "thai_hint": "ประเทศในอเมริกาใต้ มีเมืองหลวงชื่อบัวโนสไอเรส คำตอบขึ้นต้นด้วย A และมี 9 ตัวอักษร",
+    "remaining_words": [
+      "indonesia",
+      "netherlands",
+      "philippines"
+    ],
+    "word_pool": [
+      "argentina",
+      "australia",
+      "indonesia",
+      "singapore",
+      "switzerland",
+      "netherlands",
+      "philippines",
+      "madagascar"
+    ],
+    "round_words": [
+      "argentina",
+      "australia",
+      "madagascar",
+      "singapore",
+      "switzerland"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "australia",
+      "translation": "ออสเตรเลีย",
+      "status": "won",
+      "hint_letters": []
+    },
+    "guessed": [
+      "a",
+      "m",
+      "f",
+      "o",
+      "u",
+      "t",
+      "n",
+      "b",
+      "c"
+    ],
+    "hint_letters": [],
+    "wrong": 6,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790576524.9202335
   }
 ]
