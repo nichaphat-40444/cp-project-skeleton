@@ -1,5 +1,57 @@
 {% extends "base.html" %}
 {% block content %}
 <h1>{{ title }}</h1>
-<p class="lead">ภาพรวมผลการเล่นและผู้เล่นคะแนนสูงสุด</p><div class="stat-grid"><div class="stat"><div class="label">เกมทั้งหมด</div><div class="value">{{ total_games }}</div></div><div class="stat good"><div class="label">ชนะ</div><div class="value">{{ wins }}</div></div><div class="stat gold"><div class="label">คะแนนรวม</div><div class="value">{{ total_score }}</div></div></div><h2>Ranking</h2>{% if ranking %}<table><thead><tr><th>อันดับ</th><th>ผู้เล่น</th><th class="num">คะแนนรวม</th></tr></thead><tbody>{% for player, score in ranking %}<tr><td>{{ loop.index }}</td><td>{{ player }}</td><td class="num">{{ score }}</td></tr>{% endfor %}</tbody></table>{% else %}<div class="empty">ยังไม่มีข้อมูล เริ่มเล่นเกมเพื่อสร้างอันดับ</div>{% endif %}<p><a class="btn" href="{{ url_for('page', name='page1') }}">กลับไปเล่นเกม</a></p>
+<p class="lead">สรุปผลเกมที่บันทึกไว้ เลือกได้ว่าจะเล่นต่อหรือจบการเล่น</p>
+
+{% if latest_game %}
+<section class="panel">
+	<h2>ผลเกมล่าสุด</h2>
+	<p><strong>{{ latest_game.player }}</strong> · {{ latest_game.word|upper }} · {{ latest_game.category }}</p>
+	<p><span class="badge {{ 'good' if latest_game.status == 'won' else 'bad' }}">{{ 'ชนะ (Win)' if latest_game.status == 'won' else 'แพ้ (Lose)' }}</span></p>
+	<p><strong>คะแนนที่ได้:</strong> {{ latest_game.score }}</p>
+	<p class="hint">บันทึกผลเกมลงประวัติแล้ว</p>
+</section>
+
+<h2>สถิติผู้เล่น</h2>
+<div class="stat-grid">
+	<div class="stat"><div class="label">เกมทั้งหมด</div><div class="value">{{ total_games }}</div></div>
+	<div class="stat good"><div class="label">ชนะ</div><div class="value">{{ wins }}</div></div>
+	<div class="stat gold"><div class="label">ผู้เล่น</div><div class="value">{{ total_players }}</div></div>
+	<div class="stat"><div class="label">คะแนนรวม</div><div class="value">{{ total_score }}</div></div>
+</div>
+
+<h2>ผลการเล่นล่าสุด</h2>
+<table>
+	<thead><tr><th>ผู้เล่น</th><th>คำศัพท์</th><th>ผลลัพธ์</th><th class="num">คะแนน</th></tr></thead>
+	<tbody>
+		{% for game in games %}
+		<tr><td>{{ game.player }}</td><td>{{ game.word|upper }}</td><td>{{ 'ชนะ (Win)' if game.status == 'won' else 'แพ้ (Lose)' }}</td><td class="num">{{ game.score }}</td></tr>
+		{% endfor %}
+	</tbody>
+</table>
+
+<section class="panel" style="margin-top: 20px">
+	<h2>ต้องการเล่นอีกครั้งหรือไม่?</h2>
+	<div class="field-row">
+		<a class="btn" href="{{ url_for('page', name='page1') }}">เล่นต่อ</a>
+		<button class="btn ghost" id="finish-game" type="button">จบการเล่น</button>
+	</div>
+	<p class="hint" id="finish-note" hidden>จบการเล่นแล้ว ปิดแท็บนี้ได้เลย</p>
+</section>
+{% else %}
+<div class="empty">ยังไม่มีผลเกมที่บันทึกไว้ เริ่มเล่นเกมเพื่อดูผลและสถิติที่หน้านี้</div>
+<p><a class="btn" href="{{ url_for('page', name='page1') }}">เริ่มเล่นเกม</a></p>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+	const finishButton = document.getElementById("finish-game");
+	if (finishButton) {
+		finishButton.addEventListener("click", () => {
+			window.close();
+			document.getElementById("finish-note").hidden = false;
+		});
+	}
+</script>
 {% endblock %}

@@ -1,152 +1,331 @@
 [
   {
     "type": "game",
-    "player": "MILk",
-    "word": "algorithm",
-    "category": "การเขียนโปรแกรม",
-    "difficulty": "กลาง",
+    "player": "pp",
+    "word": "sofa",
+    "category": "ของใช้ในบ้าน",
+    "difficulty": "ง่าย",
+    "translation": "โซฟา",
+    "thai_hint": "เป็นของใช้ที่พบได้ในบ้าน ขึ้นต้นด้วย S และมี 4 ตัวอักษร",
+    "remaining_words": [
+      "rack",
+      "rya",
+      "shelf",
+      "squab",
+      "stool",
+      "table"
+    ],
+    "word_pool": [
+      "rack",
+      "rya",
+      "shelf",
+      "sofa",
+      "squab",
+      "stool",
+      "table"
+    ],
+    "round_hints_used": 1,
     "guessed": [
-      "l",
-      "a",
-      "c",
-      "w",
-      "f",
+      "o",
+      "r",
       "i",
-      "t",
-      "o",
-      "d",
-      "n",
-      "e"
-    ],
-    "hint_letters": [
-      "l"
-    ],
-    "wrong": 6,
-    "status": "lost",
-    "score": 0
-  },
-  {
-    "type": "game",
-    "player": "MILk",
-    "word": "computer",
-    "category": "เทคโนโลยี",
-    "difficulty": "ง่าย",
-    "guessed": [
-      "e",
-      "t",
+      "g",
       "c",
-      "o",
-      "m",
-      "p",
-      "u",
-      "r"
+      "b",
+      "p"
     ],
     "hint_letters": [
-      "e",
-      "t"
-    ],
-    "wrong": 0,
-    "status": "won",
-    "score": 100
-  },
-  {
-    "type": "game",
-    "player": "MILk",
-    "word": "python",
-    "category": "ภาษาโปรแกรม",
-    "difficulty": "ง่าย",
-    "guessed": [
-      "h",
-      "n",
-      "p",
-      "y",
-      "t",
       "o"
     ],
-    "hint_letters": [
-      "h",
-      "n"
-    ],
-    "wrong": 0,
-    "status": "won",
-    "score": 100
+    "wrong": 6,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790569971.8634038
   },
   {
     "type": "game",
-    "player": "ฺิิิิBell",
-    "word": "monitor",
-    "category": "อุปกรณ์คอมพิวเตอร์",
+    "player": "pp",
+    "word": "turky",
+    "category": "ประเทศ",
     "difficulty": "ง่าย",
+    "translation": "ตุรกี",
+    "thai_hint": "เป็นชื่อประเทศภาษาอังกฤษ ขึ้นต้นด้วย T และมี 5 ตัวอักษร",
+    "remaining_words": [],
+    "word_pool": [
+      "turky",
+      "tyre"
+    ],
+    "round_hints_used": 0,
     "guessed": [
-      "m",
+      "t",
+      "u",
+      "r",
+      "k",
+      "y"
+    ],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "won",
+    "score": 100,
+    "deadline": 1790570512.5493872
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "tyre",
+    "category": "ประเทศ",
+    "difficulty": "ง่าย",
+    "translation": "ยาง",
+    "thai_hint": "เป็นชื่อประเทศภาษาอังกฤษ ขึ้นต้นด้วย T และมี 4 ตัวอักษร",
+    "remaining_words": [],
+    "word_pool": [
+      "turky",
+      "tyre"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "turky",
+      "translation": "ตุรกี",
+      "status": "won"
+    },
+    "guessed": [
+      "t",
       "i",
       "a",
-      "o",
-      "t",
+      "e",
+      "y",
       "p",
-      "g",
-      "l",
-      "n",
       "r"
     ],
     "hint_letters": [
-      "m",
-      "i"
+      "e",
+      "y",
+      "r"
     ],
-    "wrong": 4,
+    "wrong": 3,
     "status": "won",
-    "score": 60
+    "score": 70,
+    "deadline": 1790570550.9606693
   },
   {
     "type": "game",
-    "player": "pech",
-    "word": "variable",
-    "category": "การเขียนโปรแกรม",
-    "difficulty": "กลาง",
+    "player": "pp",
+    "word": "turky",
+    "category": "ประเทศ",
+    "difficulty": "ง่าย",
+    "translation": "ตุรกี",
+    "thai_hint": "เป็นชื่อประเทศภาษาอังกฤษ ขึ้นต้นด้วย T และมี 5 ตัวอักษร",
+    "remaining_words": [],
+    "word_pool": [
+      "turky",
+      "tyre"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "tyre",
+      "translation": "ยาง",
+      "status": "won"
+    },
     "guessed": [
-      "e",
-      "a",
-      "n",
-      "r",
       "t",
-      "p",
-      "c",
-      "g",
-      "f"
+      "a",
+      "e",
+      "u",
+      "k",
+      "r",
+      "y"
     ],
     "hint_letters": [
-      "e"
+      "u",
+      "k"
     ],
-    "wrong": 6,
-    "status": "lost",
-    "score": 0
+    "wrong": 2,
+    "status": "won",
+    "score": 80,
+    "deadline": 1790570607.2516181
   },
   {
     "type": "game",
-    "player": "bb",
-    "word": "development",
-    "category": "ภาษาโปรแกรม",
-    "difficulty": "ยาก",
+    "player": "pp",
+    "word": "tyre",
+    "category": "ประเทศ",
+    "difficulty": "ง่าย",
+    "translation": "ยาง",
+    "thai_hint": "เป็นชื่อประเทศภาษาอังกฤษ ขึ้นต้นด้วย T และมี 4 ตัวอักษร",
+    "remaining_words": [],
+    "word_pool": [
+      "turky",
+      "tyre"
+    ],
+    "round_hints_used": 3,
+    "last_result": {
+      "word": "turky",
+      "translation": "ตุรกี",
+      "status": "won"
+    },
+    "guessed": [],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "lost",
+    "score": 0,
+    "deadline": 1790570635.3707628
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "yala",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "ยะลา",
+    "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย Y และมี 4 ตัวอักษร",
+    "remaining_words": [],
+    "word_pool": [
+      "yala"
+    ],
+    "round_words": [
+      "yala"
+    ],
+    "round_hints_used": 1,
     "guessed": [
-      "n",
       "a",
-      "e",
+      "p",
+      "l",
+      "y"
+    ],
+    "hint_letters": [
+      "a"
+    ],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790571110.7259266
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "tak",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "จ.ตาก",
+    "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย T และมี 3 ตัวอักษร",
+    "remaining_words": [
+      "satun",
+      "surin",
+      "trang",
+      "trat"
+    ],
+    "word_pool": [
+      "satun",
+      "surin",
+      "tak",
+      "trang",
+      "trat"
+    ],
+    "round_words": [
+      "tak",
+      "yala"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "yala",
+      "translation": "ยะลา",
+      "status": "won"
+    },
+    "guessed": [
+      "t",
+      "a",
+      "d",
+      "k"
+    ],
+    "hint_letters": [
+      "t",
+      "a"
+    ],
+    "wrong": 1,
+    "status": "won",
+    "score": 90,
+    "deadline": 1790571141.0282497
+  },
+  {
+    "type": "game",
+    "player": "pp",
+    "word": "surin",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "จ.สุรินทร์",
+    "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย S และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "satun",
+      "trang",
+      "trat"
+    ],
+    "word_pool": [
+      "satun",
+      "surin",
+      "tak",
+      "trang",
+      "trat"
+    ],
+    "round_words": [
+      "surin",
+      "tak",
+      "yala"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "tak",
+      "translation": "จ.ตาก",
+      "status": "won"
+    },
+    "guessed": [
+      "s",
+      "u",
       "r",
       "i",
-      "o",
-      "s",
-      "t",
-      "d",
-      "l",
-      "v",
-      "p",
-      "m"
-    ],
-    "hint_letters": [
       "n"
     ],
-    "wrong": 4,
+    "hint_letters": [],
+    "wrong": 0,
     "status": "won",
-    "score": 60
+    "score": 100,
+    "deadline": 1790571195.0414643
+  },
+  {
+    "type": "active",
+    "player": "pp",
+    "word": "trang",
+    "category": "จังหวัดไทย",
+    "difficulty": "ง่าย",
+    "translation": "จ.ตรัง",
+    "thai_hint": "เป็นชื่อจังหวัดของประเทศไทยภาษาอังกฤษ ขึ้นต้นด้วย T และมี 5 ตัวอักษร",
+    "remaining_words": [
+      "satun",
+      "trat"
+    ],
+    "word_pool": [
+      "satun",
+      "surin",
+      "tak",
+      "trang",
+      "trat"
+    ],
+    "round_words": [
+      "surin",
+      "tak",
+      "trang",
+      "yala"
+    ],
+    "round_hints_used": 2,
+    "last_result": {
+      "word": "surin",
+      "translation": "จ.สุรินทร์",
+      "status": "won"
+    },
+    "guessed": [],
+    "hint_letters": [],
+    "wrong": 0,
+    "status": "active",
+    "score": 0,
+    "deadline": 1790571221.8398716
   }
 ]
